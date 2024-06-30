@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="5120x2880-light-sky-blue-solid-color-background.jpg" />
+    <None Remove="phone.png" />
+    <None Remove="RAL-5010-Gorechavkovo-siniy.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="5120x2880-light-sky-blue-solid-color-background.jpg" />
+    <Resource Include="phone.png" />
+    <Resource Include="RAL-5010-Gorechavkovo-siniy.jpg" />
+  </ItemGroup>
+
+</Project>
